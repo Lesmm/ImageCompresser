@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001CFEF82AC1AFF700FAC774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 001CFEF72AC1AFF700FAC774 /* AppDelegate.m */; };
+		001CFEFB2AC1AFF700FAC774 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 001CFEFA2AC1AFF700FAC774 /* SceneDelegate.m */; };
+		001CFEFE2AC1AFF700FAC774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001CFEFD2AC1AFF700FAC774 /* ViewController.m */; };
+		001CFF012AC1AFF700FAC774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001CFEFF2AC1AFF700FAC774 /* Main.storyboard */; };
+		001CFF032AC1AFFB00FAC774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001CFF022AC1AFFB00FAC774 /* Assets.xcassets */; };
+		001CFF062AC1AFFB00FAC774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001CFF042AC1AFFB00FAC774 /* LaunchScreen.storyboard */; };
+		001CFF092AC1AFFB00FAC774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 001CFF082AC1AFFB00FAC774 /* main.m */; };
+		006770BE2AC44D320071290B /* ImageCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 006770BA2AC44D320071290B /* ImageCompressor.m */; };
+		00A383FA2AD39935005D5048 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A383F92AD39935005D5048 /* icon.png */; };
+		00A3841F2AD63D98005D5048 /* Inspector.zip in Resources */ = {isa = PBXBuildFile; fileRef = 00A3841E2AD63D98005D5048 /* Inspector.zip */; };
+		0B7D15F6B384F0C094949493 /* Pods_ImageCompresser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E98D14724217014B31FB68 /* Pods_ImageCompresser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001CFEF32AC1AFF700FAC774 /* ImageCompresser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCompresser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001CFEF62AC1AFF700FAC774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		001CFEF72AC1AFF700FAC774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		001CFEF92AC1AFF700FAC774 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		001CFEFA2AC1AFF700FAC774 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		001CFEFC2AC1AFF700FAC774 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		001CFEFD2AC1AFF700FAC774 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		001CFF002AC1AFF700FAC774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		001CFF022AC1AFFB00FAC774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001CFF052AC1AFFB00FAC774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		001CFF072AC1AFFB00FAC774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001CFF082AC1AFFB00FAC774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		006770BA2AC44D320071290B /* ImageCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCompressor.m; sourceTree = "<group>"; };
+		006770BC2AC44D320071290B /* ImageCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCompressor.h; sourceTree = "<group>"; };
+		00A383F92AD39935005D5048 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		00A3841E2AD63D98005D5048 /* Inspector.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Inspector.zip; sourceTree = "<group>"; };
+		2A1473944F6F0B3BCB10D235 /* Pods-ImageCompresser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCompresser.release.xcconfig"; path = "Target Support Files/Pods-ImageCompresser/Pods-ImageCompresser.release.xcconfig"; sourceTree = "<group>"; };
+		ADF8F84BDB030A4D9AA25ADD /* Pods-ImageCompresser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCompresser.debug.xcconfig"; path = "Target Support Files/Pods-ImageCompresser/Pods-ImageCompresser.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E98D14724217014B31FB68 /* Pods_ImageCompresser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageCompresser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001CFEF02AC1AFF700FAC774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7D15F6B384F0C094949493 /* Pods_ImageCompresser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001CFEEA2AC1AFF700FAC774 = {
+			isa = PBXGroup;
+			children = (
+				001CFEF52AC1AFF700FAC774 /* ImageCompresser */,
+				001CFEF42AC1AFF700FAC774 /* Products */,
+				7A4F795670486392FCEFCCA4 /* Pods */,
+				21F5817C7A572864642E45A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		001CFEF42AC1AFF700FAC774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001CFEF32AC1AFF700FAC774 /* ImageCompresser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001CFEF52AC1AFF700FAC774 /* ImageCompresser */ = {
+			isa = PBXGroup;
+			children = (
+				00A383F82AD39935005D5048 /* Assets */,
+				001CFEF62AC1AFF700FAC774 /* AppDelegate.h */,
+				001CFEF72AC1AFF700FAC774 /* AppDelegate.m */,
+				001CFEF92AC1AFF700FAC774 /* SceneDelegate.h */,
+				001CFEFA2AC1AFF700FAC774 /* SceneDelegate.m */,
+				001CFEFC2AC1AFF700FAC774 /* ViewController.h */,
+				001CFEFD2AC1AFF700FAC774 /* ViewController.m */,
+				001CFEFF2AC1AFF700FAC774 /* Main.storyboard */,
+				001CFF022AC1AFFB00FAC774 /* Assets.xcassets */,
+				001CFF042AC1AFFB00FAC774 /* LaunchScreen.storyboard */,
+				001CFF072AC1AFFB00FAC774 /* Info.plist */,
+				001CFF082AC1AFFB00FAC774 /* main.m */,
+				006770B72AC44D320071290B /* Classes */,
+			);
+			path = ImageCompresser;
+			sourceTree = "<group>";
+		};
+		006770B72AC44D320071290B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				006770BC2AC44D320071290B /* ImageCompressor.h */,
+				006770BA2AC44D320071290B /* ImageCompressor.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00A383F82AD39935005D5048 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				00A383F92AD39935005D5048 /* icon.png */,
+				00A3841E2AD63D98005D5048 /* Inspector.zip */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		21F5817C7A572864642E45A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E98D14724217014B31FB68 /* Pods_ImageCompresser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A4F795670486392FCEFCCA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADF8F84BDB030A4D9AA25ADD /* Pods-ImageCompresser.debug.xcconfig */,
+				2A1473944F6F0B3BCB10D235 /* Pods-ImageCompresser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001CFEF22AC1AFF700FAC774 /* ImageCompresser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001CFF0C2AC1AFFB00FAC774 /* Build configuration list for PBXNativeTarget "ImageCompresser" */;
+			buildPhases = (
+				581952643D4436176C9DEEF6 /* [CP] Check Pods Manifest.lock */,
+				001CFEEF2AC1AFF700FAC774 /* Sources */,
+				001CFEF02AC1AFF700FAC774 /* Frameworks */,
+				001CFEF12AC1AFF700FAC774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCompresser;
+			productName = ImageCompresser;
+			productReference = 001CFEF32AC1AFF700FAC774 /* ImageCompresser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001CFEEB2AC1AFF700FAC774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					001CFEF22AC1AFF700FAC774 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 001CFEEE2AC1AFF700FAC774 /* Build configuration list for PBXProject "ImageCompresser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001CFEEA2AC1AFF700FAC774;
+			productRefGroup = 001CFEF42AC1AFF700FAC774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001CFEF22AC1AFF700FAC774 /* ImageCompresser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001CFEF12AC1AFF700FAC774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A3841F2AD63D98005D5048 /* Inspector.zip in Resources */,
+				00A383FA2AD39935005D5048 /* icon.png in Resources */,
+				001CFF062AC1AFFB00FAC774 /* LaunchScreen.storyboard in Resources */,
+				001CFF032AC1AFFB00FAC774 /* Assets.xcassets in Resources */,
+				001CFF012AC1AFF700FAC774 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		581952643D4436176C9DEEF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageCompresser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001CFEEF2AC1AFF700FAC774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001CFEFE2AC1AFF700FAC774 /* ViewController.m in Sources */,
+				001CFEF82AC1AFF700FAC774 /* AppDelegate.m in Sources */,
+				001CFF092AC1AFFB00FAC774 /* main.m in Sources */,
+				006770BE2AC44D320071290B /* ImageCompressor.m in Sources */,
+				001CFEFB2AC1AFF700FAC774 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		001CFEFF2AC1AFF700FAC774 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001CFF002AC1AFF700FAC774 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		001CFF042AC1AFFB00FAC774 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001CFF052AC1AFFB00FAC774 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		001CFF0A2AC1AFFB00FAC774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		001CFF0B2AC1AFFB00FAC774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001CFF0D2AC1AFFB00FAC774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF8F84BDB030A4D9AA25ADD /* Pods-ImageCompresser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQ5XVRBPC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageCompresser/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xpel.image.compresser.ImageCompresser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		001CFF0E2AC1AFFB00FAC774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1473944F6F0B3BCB10D235 /* Pods-ImageCompresser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQ5XVRBPC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageCompresser/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xpel.image.compresser.ImageCompresser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001CFEEE2AC1AFF700FAC774 /* Build configuration list for PBXProject "ImageCompresser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001CFF0A2AC1AFFB00FAC774 /* Debug */,
+				001CFF0B2AC1AFFB00FAC774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001CFF0C2AC1AFFB00FAC774 /* Build configuration list for PBXNativeTarget "ImageCompresser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001CFF0D2AC1AFFB00FAC774 /* Debug */,
+				001CFF0E2AC1AFFB00FAC774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001CFEEB2AC1AFF700FAC774 /* Project object */;
+}
